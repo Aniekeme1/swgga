@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Watch live services from Grace Community Church every Sunday and during special events.">
+  <meta name="keywords" content="church, livestream, Grace Community Church, worship">
+  <meta name="author" content="Grace Community Church">
+  <title>Grace Community Church - Live Stream</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.twind.style" crossorigin></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+<body>
+  <div id="header"></div>
+  
+  <section class="page-header py-32 flex items-center justify-center text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Live Stream</h1>
+      <p class="text-xl max-w-3xl mx-auto">Join our services live every Sunday and during special events</p>
+    </div>
+  </section>
+  
+  <section class="py-20">
+    <div class="container mx-auto px-4">
+      <div class="max-w-5xl mx-auto">
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe src="https://www.youtube.com/embed/live_stream?channel=EXAMPLE_CHANNEL_ID" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen 
+                  class="w-full h-full rounded-lg shadow-md"
+                  title="Grace Community Church Live Stream"></iframe>
+        </div>
+        <p class="text-center text-gray-600 mt-8">
+          Can't join us in person? Watch our live services every Sunday at 9:00 AM and 11:30 AM, or during special events.
+        </p>
+        <div class="text-center mt-8">
+          <a href="/pages/contact.html" class="btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div id="footer"></div>
+  
+  <script src="/js/main.js"></script>
+</body>
+</html>
